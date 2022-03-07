@@ -34,6 +34,13 @@ namespace _08_ByteBank_test
             conta2.Sacar(20);
             Console.WriteLine("Conta Saldo: " + conta.Saldo);
             Console.WriteLine("Conta2 Saldo: " + conta2.Saldo + "\n");
+            
+            conta2.Transferir(101, conta);
+            Console.WriteLine("Conta Saldo: " + conta.Saldo);
+            Console.WriteLine("Conta2 Saldo: " + conta2.Saldo + "\n");
+
+            conta2.Transferir(100, conta);
+            Console.WriteLine("Conta2 Saldo: " + conta2.Saldo + "\n");
 
             ContaCorrente conta3 = new ContaCorrente(333, 333111);
             ContaCorrente conta4 = new ContaCorrente(444, 444111);
