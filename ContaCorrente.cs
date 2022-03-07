@@ -93,6 +93,10 @@ namespace _08_ByteBank_test
             }
             else
             {
+                if (ValidarValorMaiorQueSaldo(valor))
+                {
+                    return;
+                }
                 Saldo -= valor;
             }
 
@@ -108,6 +112,10 @@ namespace _08_ByteBank_test
             else
             {
                 Sacar(valor);
+                if (ValidarValorMaiorQueSaldo(valor))
+                {
+                    return;
+                }
                 contaDestino.Depositar(valor);
             }
         }
@@ -116,6 +124,18 @@ namespace _08_ByteBank_test
         private bool ValidarValorIncorreto(int valor)
         {
             if (valor <= 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private bool ValidarValorMaiorQueSaldo(int valor)
+        {
+            if (valor > Saldo)
             {
                 return true;
             }
