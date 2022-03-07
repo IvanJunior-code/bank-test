@@ -69,10 +69,10 @@ namespace _08_ByteBank_test
         }
 
 
-        public int Saldo { get; private set; }
+        public double Saldo { get; private set; }
 
 
-        public void Depositar(int valor)
+        public void Depositar(double valor)
         {
             if (ValidarValorIncorreto(valor))
             {
@@ -85,7 +85,7 @@ namespace _08_ByteBank_test
         }
 
 
-        public void Sacar(int valor)
+        public void Sacar(double valor)
         {
             if (ValidarValorIncorreto(valor))
             {
@@ -103,7 +103,7 @@ namespace _08_ByteBank_test
         }
 
 
-        public void Transferir(int valor, ContaCorrente contaDestino)
+        public void Transferir(double valor, ContaCorrente contaDestino)
         {
             if (ValidarValorIncorreto(valor))
             {
@@ -121,7 +121,7 @@ namespace _08_ByteBank_test
         }
 
 
-        private bool ValidarValorIncorreto(int valor)
+        private bool ValidarValorIncorreto(double valor)
         {
             if (valor <= 0)
             {
@@ -133,7 +133,7 @@ namespace _08_ByteBank_test
             }
         }
 
-        private bool ValidarValorMaiorQueSaldo(int valor)
+        private bool ValidarValorMaiorQueSaldo(double valor)
         {
             if (valor > Saldo)
             {
