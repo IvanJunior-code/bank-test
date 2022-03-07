@@ -12,6 +12,7 @@ namespace _08_ByteBank_test
             A classe conterá métodos básicos para Depositar, Sacar e Transferir.
             Atributos agencia e numero não podem ser 0 e não podem ser números negativos.
             Não poderá depositar, sacar ou transferir valores negativos ou 0.
+            A classe terá o método de contar quantas contas foram instanciadas.
             O saldo da conta não pode ser negativado.
         */
 
