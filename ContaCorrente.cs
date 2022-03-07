@@ -111,11 +111,11 @@ namespace _08_ByteBank_test
             }
             else
             {
-                Sacar(valor);
                 if (ValidarValorMaiorQueSaldo(valor))
                 {
                     return;
                 }
+                Sacar(valor);
                 contaDestino.Depositar(valor);
             }
         }
