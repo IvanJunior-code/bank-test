@@ -6,3 +6,11 @@ D:\DOCUMENTOS\Projetos CSharp\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_te
 D:\DOCUMENTOS\Projetos CSharp\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.csproj.CoreCompileInputs.cache
 D:\DOCUMENTOS\Projetos CSharp\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.exe
 D:\DOCUMENTOS\Projetos CSharp\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.pdb
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\bin\Debug\08-ByteBank_test.exe.config
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\bin\Debug\08-ByteBank_test.exe
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\bin\Debug\08-ByteBank_test.pdb
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.csproj.AssemblyReference.cache
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.csproj.SuggestedBindingRedirects.cache
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.csproj.CoreCompileInputs.cache
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.exe
+D:\DOCUMENTOS\Alura\CSharp parte 2 - Introdução à Orientação a Objetos\ByteBank\08-ByteBank_test\obj\Debug\08-ByteBank_test.pdb

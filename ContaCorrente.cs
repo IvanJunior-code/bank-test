@@ -8,6 +8,13 @@ namespace _08_ByteBank_test
 {
     internal class ContaCorrente
     {
+        /*
+            A classe conterá métodos básicos para Depositar, Sacar e Transferir.
+            Atributos agencia e numero não podem ser 0 e não podem ser números negativos.
+            Não poderá depositar, sacar ou transferir valores negativos ou 0.
+            O saldo da conta não pode ser negativado.
+        */
+
         public ContaCorrente(int agencia, int numero)
         {
             Agencia = agencia;
